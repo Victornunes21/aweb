@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    color: white;
+    background-color: rgb(24, 21, 21);
+}
+
+.interface{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 40px 4%;
+    height: 65px;
+    width: 1300px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+header a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ada8a8;
+    transition: .3s;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin-top: -30px;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 0 40px;
+    text-decoration: none; 
+}
+
+header a:hover{
+    color: white;
+    transform: scale(1.5);
+}
+
+section .sobre{
+    padding: 40px 4%;
+}
+
+section.sobre .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 100px;
+}
+.sobre p{
+    margin: 30px 0;
+    font-size: 18px;
+}
+.sobre h2{
+    color: red;
+}
+.sobre p span{
+    color: red;
+
+}
+.imagi img{
+    height: 300px;
+    width: 250px;
+    border-radius: 20px; 
+}
+
+.interface h2{
+   color: red;
+   margin: 25px 0;
+}
+
+.interface h4{
+    color: red;
+    margin: 15px;
+}
+
+.interface ul li{
+    margin: 20px;
+}
+.interface table{
+    margin: 15px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+th, td {
+    border: 1px solid red;
+    padding: 8px;
+    text-align: left;
+}
