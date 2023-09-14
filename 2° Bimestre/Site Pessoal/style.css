@@ -108,3 +108,8 @@ th, td {
     padding: 8px;
     text-align: left;
 }
+
+.Causos .interface h3{
+    color: red;
+    margin: 15px;
+}
