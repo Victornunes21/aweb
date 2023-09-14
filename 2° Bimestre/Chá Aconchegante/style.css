@@ -1,0 +1,124 @@
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+  
+  }
+  .header{
+      width: 130px;
+      height: 80px;   
+  }
+  .header ul{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      text-decoration: underline;
+      margin-left: 1000px;
+      margin-top: -40px;
+      gap: 70px;
+      list-style: none;
+      
+  }
+  .foto1 img{
+      position: relative;
+      width: 1200px;
+      height: 700px;
+      margin-top: 69px;
+      margin-left: 130px;
+  }
+    .texto{
+       position: absolute;
+       background-color:black;
+       width: 1200px;
+       height: 90px;
+       color:white;  
+       display: flex;
+       justify-content: center;
+       align-items: center;  
+       flex-direction: column;
+       margin-top: -450px;
+       margin-left: 130px;
+    }
+  .container {
+      text-align: center;
+      margin: 20px;
+      color: white;
+      margin-top: 450px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 0px;
+    }
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    h4 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    } 
+    .image-row {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .image-wrapper {
+      margin: 0 10px;
+      text-align: center;
+    }
+    .image {
+      width: 300px;
+      height: 200px;
+    }
+    p {
+      margin-top: 10px;
+      font-family: Arial, Helvetica, sans-serif
+    }
+  .foto2 img{ 
+      position: relative;
+      width: 1200px;
+      height: 500px;
+      margin-left: 130px;   
+  }
+  .foto2 h1{
+    position: absolute;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -500px;
+    margin-left: 650px;
+  }
+  .textos{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: -430px;
+    margin-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+    .tex{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 300px;
+      height: 270px;
+      background-color: black;
+      
+      opacity: 1px;
+    }
+    
+  .footer{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      color: white;
+  }
+  h3{
+      margin-left: 20px;
+      color: white;
+  }
