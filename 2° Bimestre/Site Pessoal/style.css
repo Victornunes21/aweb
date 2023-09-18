@@ -113,7 +113,18 @@ th, td {
     color: red;
     margin: 15px;
 }
-.footer img{
-    width: 20px;
-    height: 20px;
+.footer .interface h3{
+    color: red;
+    margin: 15px;
 }
+footer a{
+    margin: 30px;
+    text-align: center;
+}
+.footer img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
