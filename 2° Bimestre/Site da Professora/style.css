@@ -7,12 +7,41 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+header{
+    padding: 40px 4%;
+    height: 65px;
+    width: 1300px;
+    margin: 0 auto;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+header a{
+    display: inline-block;
+    text-decoration: none;
+}
 .imagem img{
     border-radius: 20px;
     border: 75%;
     height: 200px;  
     width: 200px;  
     
+}
+.menu ul{
+    list-style-type: none;
+    margin-top: 25px;
+    color: bisque;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 0 40px;
+    text-decoration: none;
 }
 .menu{
     display: flex;
