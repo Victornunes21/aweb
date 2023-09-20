@@ -6,7 +6,7 @@ body {
     margin: 0;
     
 }
-   .instagram{
+   .perfil{
       width: 429px; 
       height: 930px;
       top: -356px;
@@ -43,33 +43,41 @@ body {
       background-color: #ccc;
     }
 
-    #nav-numeros {
+    #numeros {
       display: flex;
       justify-content: space-around;
       align-items: center;
     }
 
-    #nav-numeros div {
+    #numeros div {
       text-align: center;
     }
 
-    #nav-numeros div * {
+    #numeros div * {
       margin: 0;
       font-size: 15px;
-    }  
-    #nav-numeros img{
+    }
+
+   
+      
+      
+  
+    #numeros img{
       width: 80px;
       height: 80px;
       border-radius: 50%;
     }
-    #nav-numeros .maix img{
+    #numeros .maix img{
       width: 20px;
       height: 20px;
       margin-top: 68px;
       margin-left: -92px;
       
     }
+  
 
+ 
+   
     .button{
       display: flex;
       flex-direction: row;
@@ -83,7 +91,8 @@ body {
       align-items: center;
     }
 
-    #button{
+    #botao {
+      
       width: 75%;
       border-radius: 5px;
       background-color: #fff;
@@ -92,10 +101,10 @@ body {
       font-size: 16px;
       border: #aaa solid 2px;
       cursor: pointer;
-      gap: 9px;
     }
 
-    #nav-destasques {
+    #stories {
+      
       height: 78px;
       width: 474px;
       margin-left: -15px;
@@ -109,14 +118,12 @@ body {
       
     }
 
-    #nav-destasques img {
+    #stories img {
       border-radius: 50%;
-      width: 70px;
-      height: 70px;
     }
   
 
-    #icones{
+    #pre-fotos {
       margin-top: 30px;
       margin-bottom: 20px;
       font-size: 15px;
@@ -125,11 +132,11 @@ body {
       align-items: center;
     }
 
-    #icones i {
+    #pre-fotos i {
       cursor: pointer;
     } 
 
-    #nav-feed {
+    #grid-fotos {
       position: relative;
       margin-top: 20px;
       display: grid;
@@ -143,14 +150,13 @@ body {
       padding: 2px;
       height: 130px;
     }
-    .fedd img{
-      width:  140px;
-      height: 140px;
-      
- 
+    .fedd img {
+      max-width: 100%;
+      max-height: 100%; 
     }
 
-    footer{
+    footer {
+      
       margin-top: 30px;
       display: flex;
       justify-content: space-evenly;
@@ -167,6 +173,7 @@ body {
 
     footer img {
       border-radius: 50%;
+      
       width: 55px;
       height: 55px;
     }
