@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: white;
+    font-family: poppins;
 }
 .interface{
     max-width: 1200px;
@@ -13,17 +20,25 @@ header{
     height: 65px;
     width: 1300px;
     margin: 0 auto;
+    margin-top: 30px;
+    border: 75%;
+    background-color:rgb(132, 14, 201);
 }
 header > .interface{
     display: flex;
     align-items: center;
     justify-content: space-between;
     justify-content: center;
+    margin-top: -45px;
+}
+.interface h1,h3{
+    color: rgb(132, 14, 201);
 }
 
 header a{
     display: inline-block;
     text-decoration: none;
+    color: white;
 }
 .imagem img{
     border-radius: 20px;
@@ -35,7 +50,7 @@ header a{
 .menu ul{
     list-style-type: none;
     margin-top: 25px;
-    color: bisque;
+    
 }
 
 .menu ul li{
@@ -54,31 +69,51 @@ header a{
     justify-content: center;
     flex-direction: row;
     margin-top: 50px;
+    gap: 40px;
 }
 .interface h1, h3{
     margin: 20px;
-    color: cornsilk;
+    
 
 }  
 table {
   border-collapse: collapse;
   width: 100%;
-  border: 1px solid #000; 
+  border: 1px solid rgb(132, 14, 201); 
 }
 
 th, td {
-    border: 1px solid #000; 
+    border: 1px solid rgb(132, 14, 201); 
     padding: 8px;
     text-align: left; 
 }
 footer img{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     gap: 200px;
 }
 
-body{
-    background-color: blueviolet;
+@media screen and (max-width:700px){
+    header {
+        display: block;
+        flex-direction: column;
+           
+    } 
+
+    .inicio{
+        flex-direction: column;
+        
+    }
+    .imagem{
+        align-self: center;
+
+    }
+}
+    
+        
+
     
 
-}
+
+
+
