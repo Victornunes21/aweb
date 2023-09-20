@@ -6,7 +6,7 @@ body {
     margin: 0;
     
 }
-   .perfil{
+   .instagram{
       width: 429px; 
       height: 930px;
       top: -356px;
@@ -43,41 +43,33 @@ body {
       background-color: #ccc;
     }
 
-    #numeros {
+    #nav-numeros {
       display: flex;
       justify-content: space-around;
       align-items: center;
     }
 
-    #numeros div {
+    #nav-numeros div {
       text-align: center;
     }
 
-    #numeros div * {
+    #nav-numeros div * {
       margin: 0;
       font-size: 15px;
-    }
-
-   
-      
-      
-  
-    #numeros img{
+    }  
+    #nav-numeros img{
       width: 80px;
       height: 80px;
       border-radius: 50%;
     }
-    #numeros .maix img{
+    #nav-numeros .maix img{
       width: 20px;
       height: 20px;
       margin-top: 68px;
       margin-left: -92px;
       
     }
-  
 
- 
-   
     .button{
       display: flex;
       flex-direction: row;
@@ -91,8 +83,7 @@ body {
       align-items: center;
     }
 
-    #botao {
-      
+    #button{
       width: 75%;
       border-radius: 5px;
       background-color: #fff;
@@ -101,10 +92,10 @@ body {
       font-size: 16px;
       border: #aaa solid 2px;
       cursor: pointer;
+      gap: 9px;
     }
 
-    #stories {
-      
+    #nav-destasques {
       height: 78px;
       width: 474px;
       margin-left: -15px;
@@ -118,12 +109,14 @@ body {
       
     }
 
-    #stories img {
+    #nav-destasques img {
       border-radius: 50%;
+      width: 70px;
+      height: 70px;
     }
   
 
-    #pre-fotos {
+    #icones{
       margin-top: 30px;
       margin-bottom: 20px;
       font-size: 15px;
@@ -132,11 +125,11 @@ body {
       align-items: center;
     }
 
-    #pre-fotos i {
+    #icones i {
       cursor: pointer;
     } 
 
-    #grid-fotos {
+    #nav-feed {
       position: relative;
       margin-top: 20px;
       display: grid;
@@ -150,13 +143,14 @@ body {
       padding: 2px;
       height: 130px;
     }
-    .fedd img {
-      max-width: 100%;
-      max-height: 100%; 
+    .fedd img{
+      width:  140px;
+      height: 140px;
+      
+ 
     }
 
-    footer {
-      
+    footer{
       margin-top: 30px;
       display: flex;
       justify-content: space-evenly;
@@ -173,7 +167,6 @@ body {
 
     footer img {
       border-radius: 50%;
-      
       width: 55px;
       height: 55px;
     }
